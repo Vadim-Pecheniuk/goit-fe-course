@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #555252;
+    font-size: 14px;
+    line-height: calc (17/14);
+}
+
+/* STYLE FOR MENU NAVIGATION */
+
+.page-header {
+    margin: 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.page-nav {
+    margin: 0;
+    padding: 38px 0;
+    margin: 0 auto;
+}
+
+.site-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.site-navigation {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1045px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.site-navigation a {
+    color: #0f0101;
+    font-family: serif;
+    height: 1045px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #1abc9c;
+}
