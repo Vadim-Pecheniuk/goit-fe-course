@@ -1,8 +1,8 @@
 .body {
-    font-family: 'Montserrat', 'Roboto', 'Kaushan Script';
     width: 1200px;
     margin: auto;
-}
+    font-family: 'Montserrat', 'Roboto', 'Kaushan Script';
+   }
 
 .header {
     min-height: 100px;
@@ -83,7 +83,6 @@ a:hover {
 }
 
 .service_list {
-
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
