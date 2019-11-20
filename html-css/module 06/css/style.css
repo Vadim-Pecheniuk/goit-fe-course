@@ -170,10 +170,6 @@ a.nav-menu-linc:hover {
   background-color: #95e1d3;
 }
 
-.team_img {
-  height: 470px;
-}
-
 .img_wrapper {
   position: absolute;
   top: 0;
@@ -188,91 +184,84 @@ a.nav-menu-linc:hover {
   transition-duration: 200ms;
   transition-timing-function: linear;
   transform: translate(-10px, -10px);
+  cursor: pointer;
+  opacity: 0, 9;
 }
 
-.layers_opacity {
+.img_bg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 470px;
+  width: 380px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
   opacity: 0;
 }
 
-.layers_opacity:hover {
+.img_bg:hover {
   opacity: 1;
 }
 
-.bg_img {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 470px;
-  width: 380px;
-  top: 0;
-  left: 0;
-  background-image: -webkit-linear-gradient(
-    90deg,
-    rgba(252, 27, 138, 0.8) 0%,
-    rgba(243, 143, 129, 0.8) 100%
-  );
-}
-
-.social_icons_wrapper {
-  position: absolute;
-  height: 470px;
-  width: 380px;
-  top: 0;
-  left: 0;
-  text-align: center;
-  padding-top: 206px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.social_icons_wrapper::before {
-  content: "";
-  background: linear-gradient(#ed8889, #eed787);
-  opacity: 0;
-  position: absolute;
-  height: 470px;
-  width: 380px;
-  top: 0;
-  left: 0;
-  z-index: 0;
+.img_bg:hover .social_icon {
+  opacity: 1;
 }
 
 .social_icon {
-  height: 57px;
-  width: 57px;
-  background: #fce38a;
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
+  height: 56px;
+  width: 56px;
+  background-color: #fce38a;
   margin-right: 1px;
-  z-index: 100;
+  transition-timing-function: linear;
 }
 
 .social_icon:hover {
-  background: #95e1d3;
+  transition-property: background-color;
+  transition-timing-function: linear;
+  background-color: #95e1d3;
+  transition-duration: 200ms;
 }
+
+.social_icons_wrpper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
 
 .team_member_info {
   text-align: center;
-  text-transform: uppercase;
 }
 
 .team_name {
   font-size: 14px;
   color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 30px;
 }
 
 .team_position {
   font-family: "Roboto";
   font-weight: lighter;
   font-style: italic;
-  color: #a6a6a6;
-  font-size: 15px;
+  color: #999999;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 81px;
 }
 
 /* STYLES FOR FOOTER */
