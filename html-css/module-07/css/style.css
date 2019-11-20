@@ -206,7 +206,6 @@
 .message-text {
   width: 435px;
   height: 212px;
-  /* Оригинал - padding: 0; */
   padding-left: 20px;
   padding-top: 20px;
   border-radius: 5px;

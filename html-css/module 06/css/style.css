@@ -207,9 +207,11 @@ a.nav-menu-linc:hover {
   width: 380px;
   top: 0;
   left: 0;
-  background-image: -webkit-linear-gradient 90deg,
-    rgba (252, 227, 138, 0.8) 0%,
-    rgba (243, 129, 129, 08) 100%
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(252, 27, 138, 0.8) 0%,
+    rgba(243, 143, 129, 0.8) 100%
+  );
 }
 
 .social_icons_wrapper {
@@ -228,7 +230,7 @@ a.nav-menu-linc:hover {
 }
 
 .social_icons_wrapper::before {
-  content: '';
+  content: "";
   background: linear-gradient(#ed8889, #eed787);
   opacity: 0;
   position: absolute;

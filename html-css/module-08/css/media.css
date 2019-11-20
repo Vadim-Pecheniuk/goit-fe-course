@@ -1,0 +1,94 @@
+@media screen and (min-width:748px) {
+    .container {
+        height: 700px;
+        padding-top: 38px;
+    }
+
+    .page-header {
+        width: 670px;
+        height: 40px;
+        flex-direction: row-reverse;
+        margin-bottom: 151px;
+        justify-content: space-between;
+    }
+
+    .enter-menu {
+        justify-content: space-between;
+    }
+
+    .info-title {
+        font-size: 52px;
+        width: 532px;
+        margin: 0 auto;
+    }
+
+    .info-text {
+        font-size: 24px;
+    }
+
+    .info-button {
+        width: 225px;
+
+        /* Проверить */
+        margin-bottom: 306px;
+    }
+
+    .partner-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 492px;
+        margin: 0 auto;
+    }
+
+    .partner-card {
+        margin-bottom: 59px;
+    }
+
+    .partner-card:nth-child(1) {
+        order: 1;
+    }
+
+    .partner-card:nth-child(2) {
+        order: 3;
+    }
+
+    .partner-card:nth-child(3) {
+        order: 2;
+    }
+
+    .partner-card:nth-child(4) {
+        order: 4;
+    }
+
+    .partner-button {
+        width: 192px;
+        order: 5;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        /* margin: 0 auto; */
+    }
+}
+
+
+@media screen and (min-width:942px) {
+    .container {
+        width: 942px;
+        padding-top: 38px;
+    }
+
+    .page-header {
+        width: 942px;
+    }
+
+    .main-card-title {
+        margin-bottom: 31px;
+    }
+
+    .partner-wrapper {
+        width: 942px;
+        margin-bottom: 73px;
+    }
+}
