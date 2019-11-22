@@ -1,7 +1,8 @@
 @media screen and (min-width:748px) {
-    .container {
+    .conteiner {
         height: 700px;
         padding-top: 38px;
+        background-image: url(../img/bg_tablet.png);
     }
 
     .page-header {
@@ -72,9 +73,10 @@
 
 
 @media screen and (min-width:942px) {
-    .container {
-        width: 942px;
+    .conteiner {
+        max-width: 942px;
         padding-top: 38px;
+        background-image: url(../img/bg_desktop.png);
     }
 
     .page-header {
