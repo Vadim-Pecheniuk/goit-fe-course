@@ -83,7 +83,8 @@ a:hover {
 
 .info-button {
   height: 40px;
-  width: 280px;
+  max-width: 280px;
+  /* width: 280px; */
   color: #ffffff;
   border: none;
   border-radius: 20px;
@@ -111,7 +112,8 @@ a:hover {
 }
 
 .partner-card {
-  width: 220px;
+  max-width: 220px;
+  /* width: 220px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 26px;
@@ -119,13 +121,15 @@ a:hover {
 
 .partner-images {
   position: relative;
-  width: 120px;
+  max-width: 120px;
+  /* width: 120px; */
   margin: 0 auto;
 }
 
 .partner-icon {
   position: absolute;
-  width: 33px;
+  max-width: 33px;
+  /* width: 33px; */
   height: 33px;
   right: 0;
   bottom: 0;
@@ -175,7 +179,8 @@ a:hover {
 
 .partner-button {
   height: 40px;
-  width: 280px;
+  max-width: 280px;
+  /* width: 280px; */
   color: rgb(255, 78, 80);
   border: 2px solid rgb(255, 78, 80);
   border-radius: 20px;
