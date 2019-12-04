@@ -1,4 +1,8 @@
-@media screen and (min-width:748px) {
+@media screen and (min-width:768px) {
+    .container-fluid {
+        background-image: url(../img/bg_tablet.png);
+    }
+
     .page-header {
         max-width: 670px;
         height: 40px;
@@ -24,7 +28,6 @@
 
     .info-button {
         max-width: 255px;
-
         margin-bottom: 306px;
     }
 
@@ -33,7 +36,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         max-width: 492px;
-
         margin: 0 auto;
     }
 
@@ -68,7 +70,11 @@
 }
 
 
-@media screen and (min-width:942px) {
+@media screen and (min-width:960px) {
+    .container-fluid {
+        background-image: url(../img/bg_desktop.png);
+    }
+
     .page-header {
         max-width: 942px;
     }
@@ -79,6 +85,6 @@
 
     .partner-wrapper {
         max-width: 942px;
-        margin-bottom: 73px;
+        /* margin-bottom: 73px; */
     }
 }
